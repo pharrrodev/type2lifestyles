@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary: #14B8A6;
+  --primary-dark: #0F766E;
+  --primary-light: #5DD4C3;
+}
+
+body {
+  @apply bg-background-light text-gray-900;
+}
